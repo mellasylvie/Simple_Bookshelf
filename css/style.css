@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+   font-family: 'Kanit', sans-serif;
+   margin: 0px;
+   padding: 0px;
+   background-color: white;
+}
+header {
+   display: inline;
+}
+nav {
+   background-color: #132238;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav .logo{
+  float: left;
+  padding: 20px;
+  margin: 5px;
+}
+nav .logo a {
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 20px;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+}
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: #132238;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+nav ul li a:hover{
+  color: #f4f4f2;
+  border-radius: 5px;
+  box-shadow:  0 0 10px #F4F4F2,
+               0 0 10px #F4F4F2;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shadow {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 
+              0 15px 40px rgba(166, 173, 201, .2);
+}
+.content .container{
+  width: 90%;
+  background-color: #f4f4f2;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  height: fit-content;
+}
+.text-center {
+  text-align: center;
+}
+.form {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 16px;
+    margin-left: 200px;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+input[type=text],
+input[type=number]{
+    background: #F8F8FF;
+    width: 80%;
+    border: 2px solid #2F4F4F;
+    border-radius: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-left: 
+}
+
